@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box                                                                                          ;
+
+}
+
+header
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.h1
+{
+    margin: 1em;
+}
+.banner
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner img 
+{
+    border-radius: 2em;
+    
+}
+
+.mensagem 
+{
+    margin: 1em;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button{
+    height: 5dvh;
+    width: 5vw;
+    border: none;
+    color: rgb(0, 0, 0);
+    border-radius: 2em;
+}
